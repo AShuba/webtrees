@@ -14,7 +14,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Fisharebest\Webtrees\Census;
+declare(strict_types=1);namespace Fisharebest\Webtrees\Census;
 
 /**
  * Marital status.

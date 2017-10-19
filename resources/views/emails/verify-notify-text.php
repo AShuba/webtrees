@@ -1,4 +1,6 @@
-<?php namespace Fisharebest\Webtrees; ?>
+<?php declare(strict_types=1);
+
+namespace Fisharebest\Webtrees; ?>
 <?= I18N::translate('Hello administrator…') ?>
 
 <?= /* I18N: %1$s is a real-name, %2$s is a username, %3$s is an email address */ I18N::translate(

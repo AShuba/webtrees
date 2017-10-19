@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-namespace Fisharebest\Webtrees\Module\BatchUpdate;
+declare(strict_types=1);namespace Fisharebest\Webtrees\Module\BatchUpdate;
 
 use Fisharebest\Webtrees\I18N;
 use Fisharebest\Webtrees\Individual;

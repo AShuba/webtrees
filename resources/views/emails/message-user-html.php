@@ -1,4 +1,6 @@
-<?php namespace Fisharebest\Webtrees; ?>
+<?php declare(strict_types=1);
+
+namespace Fisharebest\Webtrees; ?>
 <p>
 	<?= I18N::translate('Hello %s…', Html::escape($recipient->getRealName())) ?>
 </p>

@@ -1,4 +1,6 @@
-<?php namespace Fisharebest\Webtrees; ?>
+<?php declare(strict_types=1);
+
+namespace Fisharebest\Webtrees; ?>
 <?= I18N::translate('Hello %s…', $user->getRealName()) ?>
 
 <?= I18N::translate('A new password has been requested for your username.') ?>

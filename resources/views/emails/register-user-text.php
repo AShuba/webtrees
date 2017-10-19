@@ -1,4 +1,6 @@
-<?php namespace Fisharebest\Webtrees; ?>
+<?php declare(strict_types=1);
+
+namespace Fisharebest\Webtrees; ?>
 <?= I18N::translate('Hello %s…', Html::escape($user->getRealName())) ?>
 
 <?= /* I18N: %1$s is the site URL and %2$s is an email address */I18N::translate('You (or someone claiming to be you) has requested an account at %1$s using the email address %2$s.', Html::escape(WT_BASE_URL . ' ' . $tree->getTitle()), HTML::escape($user->getEmail())) ?>

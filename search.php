@@ -13,6 +13,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
+declare(strict_types=1);
+
 namespace Fisharebest\Webtrees;
 
 use Fisharebest\Webtrees\Controller\SearchController;
@@ -77,7 +79,7 @@ function checknames(frm) {
 			</div>
 		</div>
 		<fieldset class="form-group">
-			<div class="row"> 
+			<div class="row">
 				<label class="col-sm-3 col-form-label wt-page-options-label">
 					<?= I18N::translate('Records') ?>
 				</label>
@@ -122,8 +124,8 @@ function checknames(frm) {
 				</div>
 			</div>
 		</div>
-		
-		<?php if (count(Tree::getAll()) > 1 && Site::getPreference('ALLOW_CHANGE_GEDCOM') === '1'): ?>			
+
+		<?php if (count(Tree::getAll()) > 1 && Site::getPreference('ALLOW_CHANGE_GEDCOM') === '1'): ?>
 		<fieldset class="form-group">
 			<div class="row">
 				<label class="col-sm-3 col-form-label wt-page-options-label">
@@ -155,7 +157,7 @@ function checknames(frm) {
 			</div>
 		</fieldset>
 		<?php endif ?>
-		
+
 		<div class="row form-group">
 			<label class="col-sm-3 col-form-label wt-page-options-label"></label>
 			<div class="col-sm-9 wt-page-options-value">
@@ -285,7 +287,7 @@ function checknames(frm) {
 			</div>
 		</div>
 		<fieldset class="form-group">
-			<div class="row"> 
+			<div class="row">
 				<label class="col-sm-3 col-form-label wt-page-options-label">
 				<?= I18N::translate('Phonetic algorithm') ?>
 				</label>
